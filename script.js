@@ -200,8 +200,15 @@ window.addEventListener('load', animateSkillBars);
 // ==================== Form Handling ====================
 const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', (e) => {
+contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
+
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+    const originalButtonText = submitButton.innerHTML;
+
+    // Disable button and show loading state
+    submitButton.disabled = true;
+    submitButton.innerHTML = '<span>Sending...</span><i class="fas fa-spinner fa-spin"></i>';
 
     const formData = {
         name: document.getElementById('name').value,
@@ -210,35 +217,32 @@ contactForm.addEventListener('submit', (e) => {
         message: document.getElementById('message').value
     };
 
-    console.log('Form Data:', formData);
+    try {
+        const response = await fetch('https://selvam-portfolio-backend.selvam.workers.dev/api/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        });
 
-    // Show success message
-    alert('Thank you for your message! I will get back to you soon.');
+        const data = await response.json();
 
-    // Reset form
-    contactForm.reset();
-
-    // In a real application, you would send this data to a server
-    // Example using fetch:
-    /*
-    fetch('your-api-endpoint', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Success:', data);
-        alert('Message sent successfully!');
-        contactForm.reset();
-    })
-    .catch((error) => {
+        if (response.ok) {
+            console.log('Success:', data);
+            alert('Thank you for your message! I will get back to you soon.');
+            contactForm.reset();
+        } else {
+            throw new Error(data.message || 'Failed to send message');
+        }
+    } catch (error) {
         console.error('Error:', error);
-        alert('There was an error sending your message. Please try again.');
-    });
-    */
+        alert('There was an error sending your message. Please try again later.');
+    } finally {
+        // Re-enable button and restore original text
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalButtonText;
+    }
 });
 
 // ==================== Counter Animation ====================
