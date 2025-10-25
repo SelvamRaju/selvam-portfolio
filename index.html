@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvam Raju | Tech Lead & Software Architect</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%236366f1;stop-opacity:1' /><stop offset='50%25' style='stop-color:%238b5cf6;stop-opacity:1' /><stop offset='100%25' style='stop-color:%23ec4899;stop-opacity:1' /></linearGradient></defs><rect width='100' height='100' rx='20' fill='url(%23grad)'/><text x='50' y='65' font-family='Arial, sans-serif' font-size='50' font-weight='bold' fill='white' text-anchor='middle'>SR</text></svg>">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">SR</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="SELVAM_R_Profile.pdf" download="Selvam_Raju_Resume.pdf" class="nav-link resume-link">
+                    <i class="fas fa-download"></i> Resume
+                </a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-bg"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for opportunities
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Selvam Raju</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Technical Leader driving engineering teams for Taylor & Francis - UBX, a global publishing platform.
+                    Certified in AI/ML from UT Austin with 10+ years of expertise in Angular, full-stack development,
+                    eBooks publishing platforms, e-commerce, and payment systems. Passionate about building engineering
+                    workflows and innovative digital products.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get in Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="SELVAM_R_Profile.pdf" download="Selvam_Raju_Resume.pdf" class="btn btn-secondary">
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="#experience" class="btn btn-secondary">
+                        <span>View My Work</span>
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/selvam-raju/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/selvamraju" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:officialselvam@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="profile-image-wrapper">
+                        <img src="IMG_7047.jpg" alt="Selvam Raju - Tech Lead" class="profile-image">
+                        <div class="profile-ring"></div>
+                    </div>
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>10+ Years</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-award"></i>
+                        <span>11 Awards</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-users"></i>
+                        <span>1200+ Followers</span>
+                    </div>
+                    <div class="floating-card card-4">
+                        <i class="fas fa-user-friends"></i>
+                        <span>500+ Connections</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-profile-wrapper">
+                        <img src="IMG_7047.jpg" alt="Selvam Raju" class="about-profile-image">
+                    </div>
+                    <div class="stats-card">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>11</h3>
+                            <p>Awards Won</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1200+</h3>
+                            <p>Followers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Connections</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Technical Leader & Full Stack Engineer</h3>
+                    <p>
+                        I'm a passionate Technical Leader at Taylor & Francis Group - UBX, based in Bengaluru, Karnataka.
+                        With over 10 years of experience in software development, I specialize in building engineering
+                        workflows and innovative digital products that drive business transformation.
+                    </p>
+                    <p>
+                        My expertise spans Angular (primary stack), React, full-stack development, eBooks publishing platforms,
+                        e-commerce solutions, and payment systems. I lead a team of 5 web developers and have successfully
+                        delivered award-winning projects including a Gold Project eReader application that gained international
+                        recognition in the publishing industry. I'm certified in AI/ML from UT Austin and actively practice
+                        these methodologies in my work.
+                    </p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>AI/ML Certified - UT Austin</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Certified Ethical Cracker</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Angular & React Expert</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>eBooks Publishing Specialist</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Award-Winning Documentation</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Managing 15 Apps in Monorepo</span>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+                        <div class="edu-item">
+                            <strong>PGP - AI/ML | University of Texas at Austin</strong>
+                            <span>Apr 2021 - Apr 2022</span>
+                        </div>
+                        <div class="edu-item" style="margin-top: 0.75rem;">
+                            <strong>B.Tech - Information Technology | Agni College of Technology</strong>
+                            <span>Graduated May 2015</span>
+                        </div>
+                    </div>
+                    <div class="resume-download">
+                        <a href="SELVAM_R_Profile.pdf" download="Selvam_Raju_Resume.pdf" class="btn btn-primary">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Download Full Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">December 2022 - Present</div>
+                        <h3>Tech Lead</h3>
+                        <h4>Taylor &amp; Francis Group - UBX</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</p>
+                        <ul class="responsibilities">
+                            <li>Leading a team of 6 engineers and built an award-winning eReader application (Gold Project of 2024)</li>
+                            <li>Managing 15 applications in a monorepo with highly scalable web architecture</li>
+                            <li>Leading User experience and Onboarding web engineering for www.taylorfrancis.com</li>
+                            <li>Conducting detailed code reviews for TypeScript &amp; Angular coding standards</li>
+                            <li>Spearheaded frontend architecture decisions for multiple high-traffic web applications</li>
+                            <li>Organized Angular workshops and mentorship programs for the team</li>
+                            <li>Reduced load time by 40% through Angular UI optimization</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Angular 9+</span>
+                            <span>Team Leadership</span>
+                            <span>Architecture Design</span>
+                            <span>eBooks Publishing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2021 - December 2022</div>
+                        <h3>Senior Full Stack Engineer</h3>
+                        <h4>Taylor &amp; Francis Group</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</p>
+                        <ul class="responsibilities">
+                            <li>Led responsive web application development for 19th century British society and Routledge Resources online</li>
+                            <li>End-to-End web development of Stripe-based Alipay, Union Pay integration for Chinese payments</li>
+                            <li>Developed Micro Frontend Cart Application using Angular 9</li>
+                            <li>Built payment applications using SvelteKit - Early adoption of Svelte framework</li>
+                            <li>Managed AWS Infrastructure and CI/CD pipelines (Bamboo, Travis, GitHub Actions)</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Angular</span>
+                            <span>SvelteKit</span>
+                            <span>Stripe Integration</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2019 - July 2021</div>
+                        <h3>Full Stack Engineer</h3>
+                        <h4>Taylor &amp; Francis Group</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</p>
+                        <ul class="responsibilities">
+                            <li>Developed Single Page Credit Card payment application</li>
+                            <li>Built Automated Serverless Service for handling batch books orders and invoice processing</li>
+                            <li>Server-side rendered checkout application for payment by card and invoice flow</li>
+                            <li>Part of engineering team that built Zero-touch end-to-end eCommerce Solution</li>
+                            <li>Integrated New Relic, Sonar cloud, Epsagon and other SDK solutions</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Full Stack</span>
+                            <span>eCommerce</span>
+                            <span>Serverless</span>
+                            <span>Payment Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2018 - February 2019</div>
+                        <h3>Full Stack Engineer - Junior</h3>
+                        <h4>Taylor &amp; Francis Group</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</p>
+                        <ul class="responsibilities">
+                            <li>Worked on Auth API Micro-Service development</li>
+                            <li>Built Developer Dashboard for internal tools</li>
+                            <li>Contributed to eCommerce platform development</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>API Development</span>
+                            <span>Microservices</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2016 - March 2018</div>
+                        <h3>Software Development Engineer - Android</h3>
+                        <h4>HTC Global Services</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India</p>
+                        <ul class="responsibilities">
+                            <li>Developed 12 enterprise mobile applications as part of HTC's Mobile Centre of Excellence</li>
+                            <li>Built backend and cloud infrastructure for US-based gambling application (patented in USA)</li>
+                            <li>Developed 4 enterprise mobile applications for Larsen &amp; Toubro IDPL</li>
+                            <li>Won Employee of the Quarter award for exceptional performance</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Android Development</span>
+                            <span>Java</span>
+                            <span>Cloud Infrastructure</span>
+                            <span>Backend Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2015 - May 2016</div>
+                        <h3>Programmer Analyst - Java</h3>
+                        <h4>HTC Global Services</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India</p>
+                        <ul class="responsibilities">
+                            <li>Developed mobile backend for native applications</li>
+                            <li>Worked on 1 project in Xamarin platform</li>
+                            <li>Started career as Programmer Analyst Trainee</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Xamarin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2 class="section-title">Major Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured" data-aos="zoom-in">
+                    <div class="project-badge">Gold Project 2024</div>
+                    <div class="project-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <h3>Taylor &amp; Francis eReader Application</h3>
+                    <p class="project-description">
+                        Led a team of 6 engineers to build the most advanced and accessible eReader application in the
+                        publishing industry. Gained international recognition with multiple press releases. This Gold Project
+                        of 2024 supports both ePub and PDF reading with publishing-specific features.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight"><i class="fas fa-check"></i>Team of 6 engineers</div>
+                        <div class="highlight"><i class="fas fa-check"></i>International recognition</div>
+                        <div class="highlight"><i class="fas fa-check"></i>ePub &amp; PDF support</div>
+                        <div class="highlight"><i class="fas fa-check"></i>WCAG accessible</div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>Publishing Platform</span>
+                        <span>Full Stack</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://newsroom.taylorandfrancisgroup.com/taylor-and-francis-launches-its-most-advanced-and-accessible-ereader/" target="_blank" class="project-link">
+                            <i class="fas fa-newspaper"></i> Press Release
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>taylorfrancis.com - User Experience Platform</h3>
+                    <p class="project-description">
+                        Leading User experience and Onboarding web engineering for www.taylorfrancis.com and its micro-sites.
+                        Managing 15 applications in a monorepo with highly scalable web architecture.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight"><i class="fas fa-check"></i>15 apps in monorepo</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Scalable architecture</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Micro-frontend</div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Angular 9+</span>
+                        <span>Monorepo</span>
+                        <span>Micro-frontend</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Stripe Payment Platform Integration</h3>
+                    <p class="project-description">
+                        End-to-end web development of Stripe-based payment integrations including Alipay, WeChat Pay, and Union Pay
+                        for Chinese market. Single Page Credit Card payment application with invoice flow.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight"><i class="fas fa-check"></i>Multi-payment gateway</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Chinese market support</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Award-winning</div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Stripe</span>
+                        <span>SvelteKit</span>
+                        <span>Alipay</span>
+                        <span>WeChat Pay</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Zero-Touch eCommerce Solution</h3>
+                    <p class="project-description">
+                        Part of engineering team that built a Zero-touch end-to-end eCommerce Solution for online E-Book business.
+                        Includes automated serverless service for batch orders, acknowledgement, and invoice processing.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight"><i class="fas fa-check"></i>Serverless architecture</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Automated processing</div>
+                        <div class="highlight"><i class="fas fa-check"></i>End-to-end solution</div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>AWS Lambda</span>
+                        <span>Microservices</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>19th Century British Society &amp; Routledge Resources</h3>
+                    <p class="project-description">
+                        Led and delivered responsive web applications for historical academic resources. Built with modern
+                        web technologies ensuring accessibility and performance.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight"><i class="fas fa-check"></i>Responsive design</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Academic resources</div>
+                        <div class="highlight"><i class="fas fa-check"></i>High performance</div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Angular</span>
+                        <span>Responsive</span>
+                        <span>Academic Platform</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Enterprise Mobile Applications</h3>
+                    <p class="project-description">
+                        Developed 12 enterprise mobile applications at HTC's Mobile Centre of Excellence. Built backend and cloud
+                        infrastructure for US-based gambling application that was patented in USA.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight"><i class="fas fa-check"></i>12 mobile apps</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Patented in USA</div>
+                        <div class="highlight"><i class="fas fa-check"></i>Enterprise solutions</div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Android</span>
+                        <span>Java</span>
+                        <span>Cloud Infrastructure</span>
+                        <span>Xamarin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2 class="section-title">Achievements & Awards</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card featured" data-aos="zoom-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-year">2025</div>
+                    <h3>Best Tech Lead - H1 2025</h3>
+                    <p>Taylor &amp; Francis Group</p>
+                    <div class="achievement-badge">Latest</div>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-year">2024</div>
+                    <h3>Best Tech Lead</h3>
+                    <p>June 2023 - March 2024 | Taylor &amp; Francis Group</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="achievement-year">2024</div>
+                    <h3>Best Documentation</h3>
+                    <p>June 2023 - March 2024 | My documents need no external references</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="achievement-year">2024</div>
+                    <h3>Star Performer of the Quarter</h3>
+                    <p>March 2024 | Outstanding performance and contribution</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-year">2022</div>
+                    <h3>Delighting Customers - T&amp;F Award</h3>
+                    <p>April 2022 | Stripe payment platform team - Alipay, WeChat Pay &amp; Union Pay integration</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-year">2020</div>
+                    <h3>Digital Delivery - Informa Award</h3>
+                    <p>July 2020 | Informa PLC | Part of winning eCommerce Solutions Team</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-year">2020</div>
+                    <h3>Digital Delivery - T&amp;F Award</h3>
+                    <p>June 2020 | Team award for entire eCommerce Solutions team</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="achievement-year">2019</div>
+                    <h3>Excellence Award for Digital E-Commerce Solution</h3>
+                    <p>October 2019 | Certificate received from Max Gabriel, CDO of T&amp;F</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="achievement-year">2017</div>
+                    <h3>Best Technocrat Award</h3>
+                    <p>December 2017 | Agni College of Technology | Alumni Meet 2017</p>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="achievement-year">2017</div>
+                    <h3>Employee of the Quarter</h3>
+                    <p>Jan-March 2017 | HTC Global Services | Backend &amp; cloud infrastructure for US gambling app</p>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-card" data-aos="flip-left">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Certified Ethical Cracker</h4>
+                        <p>infySEC - CyberSecurity Solutions</p>
+                        <span class="cert-date">Sep 2016</span>
+                    </div>
+                    <div class="cert-card" data-aos="flip-left">
+                        <i class="fas fa-network-wired"></i>
+                        <h4>Advanced Concepts of Networking</h4>
+                        <p>HP</p>
+                        <span class="cert-date">Jan 2014</span>
+                        <span class="cert-id">ID: HP/ACT/2013/S1898</span>
+                    </div>
+                    <div class="cert-card" data-aos="flip-left">
+                        <i class="fas fa-robot"></i>
+                        <h4>PGP - Artificial Intelligence &amp; Machine Learning</h4>
+                        <p>University of Texas at Austin</p>
+                        <span class="cert-date">Apr 2021 - Apr 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-right">
+                    <div class="category-icon">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Angular (9+)</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="98"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TypeScript</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>RxJS &amp; NgRx</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Backend &amp; Full Stack</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="93"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java &amp; Spring Boot</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SvelteKit</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Microservices</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-left">
+                    <div class="category-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud &amp; DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>AWS</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Cloudflare</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>GitHub Actions</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Jenkins &amp; CI/CD</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-right">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases &amp; Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>RedShift</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Redis &amp; MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI/ML &amp; Modern Tech</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>AI &amp; Machine Learning</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PWAs</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Storybook</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>WCAG Compliance</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-left">
+                    <div class="category-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Payment &amp; eCommerce</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Stripe Integration</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Alipay &amp; UnionPay</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="93"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>WeChat Pay</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>eBooks Publishing</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="98"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-right">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security &amp; Quality</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Ethical Hacking</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Network Security</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Jest &amp; Cypress</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Code Reviews</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Leadership &amp; Management</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Team Leadership (5+ Engineers)</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="98"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Technical Mentoring</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Agile/Scrum</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="93"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Documentation (Award-Winning)</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="98"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's discuss your next project</h3>
+                    <p>
+                        I'm always interested in hearing about new opportunities, innovative projects,
+                        and challenging problems to solve. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-text">
+                                <h4>Location</h4>
+                                <p>Bengaluru, Karnataka, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-text">
+                                <h4>Email</h4>
+                                <p>officialselvam@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="method-text">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/selvam-raju</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/selvam-raju/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/selvamraju" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:officialselvam@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://twitter.com/selvamraju" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Selvam Raju</h3>
+                    <p>Tech Lead & Software Architect</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Selvam Raju. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
