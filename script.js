@@ -1,6 +1,7 @@
 // ==================== Typing Animation ====================
 const typingText = document.querySelector('.typing-text');
 const phrases = [
+    'Director, Engineering',
     'Tech Lead',
     'Angular Expert',
     'Full Stack Engineer',
